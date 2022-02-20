@@ -1,0 +1,46 @@
+.container {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+    min-height: 100vh;
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+    font-size: 20px;
+    background-color: white;
+    border: 1px solid #333;
+}
+
+button:hover {
+    background-color: #333;
+    color: white;
+}
+
+.output {
+    grid-column: 1 / -1;
+    background-color: #333;
+    word-wrap: break-word;
+    word-break: break-all;
+    border-radius: 20px 20px 0 0;
+}
+
+.overoutput {
+    background-color: black;
+    padding-right: 10px;
+    padding: 20px;
+    text-align: end;
+    font-size: 15px;
+    color: rgba(225, 225, 225, 100);
+    border-radius: 20px 20px 0 0;
+}
+
+.underoutput {
+    padding: 20px;
+    text-align: end;
+    font-size: 30px;
+    color: white;
+}
