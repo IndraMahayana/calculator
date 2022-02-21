@@ -12,11 +12,11 @@ button {
     outline: none;
     font-size: 20px;
     background-color: white;
-    border: 1px solid #333;
+    border: 3px solid #333;
 }
 
 button:hover {
-    background-color: #333;
+    background-color: rgba(225, 225, 225, 70);
     color: white;
 }
 
@@ -29,13 +29,22 @@ button:hover {
 }
 
 .overoutput {
-    background-color: black;
+    background-color: rgb(42, 101, 128);
     padding-right: 10px;
-    padding: 20px;
+    padding: 10px;
     text-align: end;
-    font-size: 15px;
-    color: rgba(225, 225, 225, 100);
+    font-size: 20px;
     border-radius: 20px 20px 0 0;
+    color: rgba(225, 225, 225, 100);
+    height: 20px;
+}
+
+.tempoutput {
+    background-color: #333;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    height: 20px;
 }
 
 .underoutput {
@@ -43,4 +52,5 @@ button:hover {
     text-align: end;
     font-size: 30px;
     color: white;
+    height: 50px;
 }
