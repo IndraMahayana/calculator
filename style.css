@@ -37,7 +37,7 @@ button:hover {
     text-align: end;
     font-size: 20px;
     color: rgba(225, 225, 225, 100);
-    min-height: 20px;
+    min-height: 25px;
 }
 
 .tempoutput {
@@ -45,7 +45,7 @@ button:hover {
     color: #fff;
     font-size: 20px;
     padding: 10px;
-    min-height: 20px;
+    min-height: 25px;
 }
 
 .underoutput {
