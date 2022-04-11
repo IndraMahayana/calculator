@@ -7,11 +7,11 @@ const overoutput = document.querySelector('.overoutput')
 const underoutput = document.querySelector('.underoutput')
 const tempoutput = document.querySelector('.tempoutput')
 
-let output1 = ''
-let output2 = ''
-let result = null
-let operationLast = ''
-let oneDot = false
+var output1 = ''
+var output2 = ''
+var result = null
+var operationLast = ''
+var oneDot = false
 
 number.forEach( number => {
   number.addEventListener('click', (e) => {
